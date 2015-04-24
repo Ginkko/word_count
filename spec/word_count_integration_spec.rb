@@ -10,6 +10,7 @@ describe("The path to the word_count page", {:type => :feature}) do
     visit('/')
     fill_in("master_word", :with => "spam")
     fill_in("master_sentence", :with => "Spam! Spam! Spam! Spam! Lovely Spam! Lovely Spam!")
-    expect(page).(to(have_content('6'))
+    click_button("submit")
+    expect(page).to(have_content("6"))
   end
 end
