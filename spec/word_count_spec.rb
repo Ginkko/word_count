@@ -19,4 +19,5 @@ describe('String#word_count') do
   it("Supports mixed casing of words between inputs") do
     expect("hello".word_count("HeLLo, are you THErE? HeLLo?")).to(eq(2))
   end
+
 end
