@@ -8,4 +8,8 @@ describe('String#word_count') do
     expect("hello".word_count("hello")).to(eq(1))
   end
 
+  it("Accepts input of two strings, compares the first to the second, and returns the total number of matching words.") do
+    expect("hello".word_count("hello are you there hello")).to(eq(2))
+  end
+
 end
