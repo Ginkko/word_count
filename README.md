@@ -1,4 +1,5 @@
-#Word Counter by Alec Arme (alec.arme@gmail.com)
+#Word Counter
+By Alec Arme - alec.arme@gmail.com
 
 Word Counter is a Ruby 2.2.0 application that allows a user to input a word, followed by a sentence. After submitting, Word Counter generates a page showing the total number of times the first word occurred in the sentence.
 
