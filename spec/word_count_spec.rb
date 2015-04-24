@@ -12,4 +12,9 @@ describe('String#word_count') do
     expect("hello".word_count("hello are you there hello")).to(eq(2))
   end
 
+  it("Supports inputs of non word characters (ie , $ * 0 etc.) in the second string.") do
+    expect("hello".word_count("hello, are you there? hello?")).to(eq(2))
+  end
+
+
 end
